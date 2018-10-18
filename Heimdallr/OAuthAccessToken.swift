@@ -2,7 +2,7 @@ import Result
 
 /// An access token is used for authorizing requests to the resource endpoint.
 @objc
-public class OAuthAccessToken: NSObject {
+open class OAuthAccessToken: NSObject {
     /// The access token.
     public let accessToken: String
 
